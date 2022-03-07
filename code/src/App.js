@@ -1,12 +1,16 @@
 import React from 'react'
-import data from './data.json'
-
-console.log(data)
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Cards from './components/Cards'
+import Playlists from './components/Playlist'
 
 export const App = () => {
   return (
-    <div>
-      Find me in src/app.js!
-    </div>
+    <section className="page">
+    {/* <Header /> */}
+    <Cards />
+    <Playlists />
+    {/* <Footer /> */}
+    </section>
   )
 }
