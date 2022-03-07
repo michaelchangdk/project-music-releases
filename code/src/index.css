@@ -26,10 +26,9 @@ code {
 /* Entire Page */
 .page {
   width: 375px;
-  margin: 2vh auto;
-  /* display: grid;
-  grid-template-columns: 40% 60%;
-  gap: 2vw; */
+  margin: 25px auto;
+	padding-left: env(safe-area-inset-left);
+	padding-right: env(safe-area-inset-right);
 }
 
 hr {
@@ -153,6 +152,13 @@ p {
   fill: rgba(24, 24, 24, 1)
 }
 
+/* Album Slide */
+
+/* Singles Slide */
+.singles-slide {
+  padding-top: 10px;
+}
+
 /* Playlists */
 .playlists {
   display: none;
@@ -167,8 +173,8 @@ p {
   }
 
   .card {
-    width: 48%;
-    padding: 0 1%;
+    width: 49%;
+    padding: 0 0.5%;
   }
 }
 

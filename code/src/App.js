@@ -7,10 +7,6 @@ import Playlists from './components/Playlist'
 import AlbumsSlide from './components/AlbumsSlide'
 import SinglesSlide from 'components/SinglesSlide'
 
-import data from './data.json'
-let array = data.albums.items
-console.log(array)
-
 // array.map((item) => {
 //   console.log(item.artists.length)
 // })

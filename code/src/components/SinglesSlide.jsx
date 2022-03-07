@@ -5,14 +5,26 @@ import heart from '../icons/heart.svg'
 import play from '../icons/play.svg'
 import dots from '../icons/dots.svg'
 
+const tabletQuery = window.matchMedia('(min-width: 768px)')
+const desktopQuery = window.matchMedia('(min-width: 1100px')
+
 let singles = data.albums.items.filter((album) => album.album_type === "single")
 let numberOfArtists;
+let autoPlaySpeed
+
+if (tabletQuery.matches) {
+    autoPlaySpeed = 4000
+} if (desktopQuery.matches) {
+    autoPlaySpeed = 5500
+} else {
+    autoPlaySpeed = 3000
+}
 
 const flickityOptions = {
     initialIndex: 4,
     pageDots: false,
     wrapAround: true,
-    autoPlay: true,
+    autoPlay: autoPlaySpeed,
     groupCells: '100%'
 }
 
