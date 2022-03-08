@@ -10,8 +10,8 @@ let albums = data.albums.items.filter((album) => album.album_type === "album")
 const Albums = () => {
     return (
         <section className="albums">
-            {/* <h2>New Albums</h2>
-            <hr /> */}
+            <h2>New Albums</h2>
+            <hr />
             {albums.map((item) => (
                 <div key={item.id} className="card">
                     <div className="card-image-group">
