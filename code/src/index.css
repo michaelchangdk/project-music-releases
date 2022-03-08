@@ -102,8 +102,6 @@ p {
   width: 40px;
   transition: 0.5s ease;
   transform: scale(0);
-  /* visibility: hidden; */
-  /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(103%) contrast(101%); */
 }
 
 .play-icon {
@@ -111,8 +109,6 @@ p {
   width: 80px;
   transition: 0.5s ease;
   transform: scale(0);
-  /* visibility: hidden; */
-  /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(103%) contrast(101%); */
 }
 
 /* Hover Effects */
@@ -121,8 +117,6 @@ p {
 }
 
 .card-image-group:hover .icons, .card-image-group:hover .play-icon {
-  /* visibility: visible; */
-  /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(103%) contrast(101%); */
   transform: scale(1);
 }
 

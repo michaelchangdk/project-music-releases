@@ -1,8 +1,8 @@
 import React from 'react'
 import data from '../data.json'
-import heart from '../icons/heart.svg'
-import play from '../icons/play.svg'
-import dots from '../icons/dots.svg'
+import heart from '../icons/heart_white.svg'
+import play from '../icons/play_white.svg'
+import dots from '../icons/dots_white.svg'
 
 let albums = data.albums.items.filter((album) => album.album_type === "album")
 // console.log(albums)
