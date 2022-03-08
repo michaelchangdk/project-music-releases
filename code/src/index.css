@@ -119,7 +119,7 @@ p {
 
 .card-image-group:hover .icons, .card-image-group:hover .play-icon {
   opacity: 100%;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(103%) contrast(101%);
+  /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(103%) contrast(101%); */
 }
 
 .play-icon:hover {
