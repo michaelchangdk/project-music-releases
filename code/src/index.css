@@ -3,10 +3,10 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased; */
 	text-rendering: optimizeLegibility;
   text-decoration: none;
 }
@@ -48,7 +48,7 @@ p {
 }
 
 .card {
-  width: 99%;
+  width: 98%;
   padding: 0 1%;
 }
 
