@@ -43,7 +43,7 @@ const SinglesSlide = () => {
     >
     {singles.map((item) => (
         <div key={item.id} className="card">
-        <div className="card-image-group">
+            <div className="card-image-group">
                 <img className="card-image" src={item.images[0].url} alt="Album cover" />
                 <div className="card-image-overlay"></div>
                 <div className="card-icons-overlay">
