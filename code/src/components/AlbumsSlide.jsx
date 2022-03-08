@@ -1,9 +1,9 @@
 import React from 'react'
 import Flickity from 'react-flickity-component'
 import data from '../data.json'
-import heart from '../icons/heart.svg'
-import play from '../icons/play.svg'
-import dots from '../icons/dots.svg'
+import heart from '../icons/heart_white.svg'
+import play from '../icons/play_white.svg'
+import dots from '../icons/dots_white.svg'
 
 const tabletQuery = window.matchMedia('(min-width: 768px)')
 const desktopQuery = window.matchMedia('(min-width: 1100px')
