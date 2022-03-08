@@ -19,6 +19,7 @@ export const App = () => {
     <SinglesSlide />
     <Playlists />
     {/* <Albums /> */}
+    {/* <Singles/ > */}
     {/* <Footer /> */}
     </section>
   )
