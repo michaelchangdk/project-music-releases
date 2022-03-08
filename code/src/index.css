@@ -94,7 +94,6 @@ p {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  z-index: 3;
 }
 
 /* Icons */
@@ -115,7 +114,7 @@ p {
 
 /* Hover Effects */
 .card-image-group:hover .card-image-overlay {
-  background: rgba(0, 0, 0, 0.7);
+  /* background: rgba(0, 0, 0, 0.7); */
 }
 
 .card-image-group:hover .icons, .card-image-group:hover .play-icon {
@@ -125,7 +124,7 @@ p {
 .play-icon:hover {
   height: 100px;
   width: 100px;
-  opacity: 100%;
+  /* opacity: 100%; */
 }
 
 .link-hover:hover {
