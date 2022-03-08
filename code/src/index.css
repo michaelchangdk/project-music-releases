@@ -101,22 +101,20 @@ p {
   height: 40px;
   width: 40px;
   opacity: 0;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(103%) contrast(101%);
+  /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(103%) contrast(101%); */
 }
 
 .play-icon {
   height: 80px;
   width: 80px;
   opacity: 0;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(103%) contrast(101%);
+  /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(138deg) brightness(103%) contrast(101%); */
   transition: 0.5s ease;
 }
 
 /* Hover Effects */
 .card-image-group:hover .card-image-overlay {
-  /* background: rgba(0, 0, 0, 0.7); */
-  background: black;
-  opacity: 70%;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .card-image-group:hover .icons, .card-image-group:hover .play-icon {
