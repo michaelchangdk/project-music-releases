@@ -7,9 +7,9 @@ const NewAlbums = (props) => {
     <section className="albums">
     <h2>New Albums</h2>
     <hr />
-    {/* <Carousel>
-        <SongCards songs={props.children} />
-    </Carousel> */}
+    <Carousel>
+        <SongCards songs={props.children.props.children} />
+    </Carousel>
     </section>
     )
 }
