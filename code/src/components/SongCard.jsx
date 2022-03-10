@@ -21,8 +21,8 @@ const SongCard = (props) => {
                 <div className="card-text-group">
                     <a href={item.external_urls.spotify} rel="noopener noreferrer"><p className="album-name link-hover">{item.name}</p></a>
                     <ArtistList artists={item} />
-                    </div>
-                    </div>
+                </div>
+            </div>
         </>
     )
 }
