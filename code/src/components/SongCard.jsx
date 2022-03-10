@@ -8,7 +8,7 @@ let numberOfArtists
 const SongCard = (props) => {
     let item = props.item
     return (
-        <div>
+        <>
             <div className="card">
                 <div className="card-image-group">
                     <img className="card-image" src={item.images[0].url} alt="Album cover" />
@@ -49,7 +49,7 @@ const SongCard = (props) => {
                     })()}
                     </div>
                     </div>
-        </div>
+        </>
     )
 }
 
