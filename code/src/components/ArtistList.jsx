@@ -6,7 +6,6 @@ let numberOfArtists = item.artists.length;
  return (
      <>
     {(() => {
-        {/* numberOfArtists = item.artists.length; */}
         if (numberOfArtists === 1) {
         return (
             <a href={item.artists[0].external_urls.spotify} target="_blank" rel="noopener noreferrer"><p className="artist-name link-hover">{item.artists[0].name}</p></a>
