@@ -163,11 +163,6 @@ p {
   padding-top: 10px;
 }
 
-/* Playlists */
-.playlists {
-  display: none;
-}
-
 /* Media Query Tablet */
 
 @media (min-width: 768px) {
