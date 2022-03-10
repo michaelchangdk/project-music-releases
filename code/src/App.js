@@ -1,6 +1,6 @@
 import React from 'react'
 import NewAlbums from './components/NewAlbums'
-import NewSingles from 'components/NewSingles'
+import NewSingles from './components/NewSingles'
 import data from './data.json'
 
 let albums = data.albums.items.filter((album) => album.album_type === "album")
