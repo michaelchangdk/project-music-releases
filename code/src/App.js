@@ -9,16 +9,8 @@ let singles = data.albums.items.filter((album) => album.album_type === "single")
 export const App = () => {
   return (
     <section className="page">
-    <NewAlbums>
-      <>
-        {albums}
-      </>
-    </NewAlbums>
-    <NewSingles>
-      <>
-        {singles}
-      </>
-    </NewSingles>
+    <NewAlbums songs={albums} />
+    <NewSingles songs={singles} />
     </section>
   )
 }

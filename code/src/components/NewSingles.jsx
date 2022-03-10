@@ -8,7 +8,7 @@ return (
     <h2>New Singles</h2>
     <hr />
     <Carousel>
-        <SongCards songs={props.children.props.children} />
+        <SongCards cards={props.songs} />
     </Carousel>
     </section>
 )
