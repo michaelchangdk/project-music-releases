@@ -30,6 +30,8 @@ code {
   margin: 25px auto;
 	padding-left: env(safe-area-inset-left);
 	padding-right: env(safe-area-inset-right);
+  display: grid;
+  gap: 10px;
 }
 
 hr {
@@ -156,11 +158,6 @@ p {
 
 .flickity-button-icon:hover {
   fill: rgba(24, 24, 24, 1)
-}
-
-/* Singles Section */
-.singles {
-  padding-top: 10px;
 }
 
 /* Media Query Tablet */

@@ -4,7 +4,7 @@ import SongCard from './SongCard'
 
 const NewSingles = (props) => {
     return (
-        <section className="singles">
+        <section>
         <h2>New Singles</h2>
         <hr />
         <Carousel>
