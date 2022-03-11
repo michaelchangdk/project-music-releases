@@ -2,10 +2,10 @@ import React from 'react'
 import Carousel from './Carousel'
 import SongCard from './SongCard'
 
-const NewAlbums = (props) => {
+const NewSongs = (props) => {
     return (
         <section>
-        <h2>New Albums</h2>
+        <h2>{props.title}</h2>
         <hr />
         <Carousel>
             {props.songs.map((song) => (
@@ -16,4 +16,4 @@ const NewAlbums = (props) => {
     )
 }
 
-export default NewAlbums
+export default NewSongs

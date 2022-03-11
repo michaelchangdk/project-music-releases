@@ -14,7 +14,7 @@ let numberOfArtists = item.artists.length;
         return (
             <div>
             <a href={item.artists[0].external_urls.spotify} target="_blank" rel="noopener noreferrer"><p className="artist-name link-hover">{item.artists[0].name}</p></a>
-            <span className="artist-name">&nbsp;&&nbsp;</span>
+            <span className="artist-name">&nbsp;&amp;&nbsp;</span>
             <a href={item.artists[1].external_urls.spotify} target="_blank" rel="noopener noreferrer"><p className="artist-name link-hover">{item.artists[1].name}</p></a>
             </div>
         )
@@ -22,9 +22,9 @@ let numberOfArtists = item.artists.length;
         return (
             <div>
                 <a href={item.artists[0].external_urls.spotify} target="_blank" rel="noopener noreferrer"><p className="artist-name link-hover">{item.artists[0].name}</p></a>
-                <span className="artist-name">,&nbsp;</span>
+                <span className="artist-name">&#44;&nbsp;</span>
                 <a href={item.artists[1].external_urls.spotify} target="_blank" rel="noopener noreferrer"><p className="artist-name link-hover">{item.artists[1].name}</p></a>
-                <span className="artist-name">&nbsp;&&nbsp;</span>
+                <span className="artist-name">&nbsp;&amp;&nbsp;</span>
                 <a href={item.artists[2].external_urls.spotify} target="_blank" rel="noopener noreferrer"><p className="artist-name link-hover">{item.artists[2].name}</p></a>
             </div>
         )

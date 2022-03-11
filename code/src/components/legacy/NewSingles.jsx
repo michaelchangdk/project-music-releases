@@ -1,6 +1,6 @@
 import React from 'react'
-import Carousel from './Carousel'
-import SongCard from './SongCard'
+import Carousel from '../Carousel'
+import SongCard from '../SongCard'
 
 const NewSingles = (props) => {
     return (
