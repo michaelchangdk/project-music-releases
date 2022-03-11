@@ -14,4 +14,6 @@ The above link is for the project with the carousel. The link below is a branch 
 
 If you'd like to see a live link and my code for the Technigo requirements version, you can check out the "technigo" branch on my github repo below.
 
+https://technigo--project-spotify-week9.netlify.app/
+
 https://github.com/michaelchangdk/project-music-releases/tree/technigo
