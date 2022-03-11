@@ -1,5 +1,4 @@
 import React from 'react'
-import Carousel from './Carousel'
 import SongCard from './SongCard'
 
 const NewSongs = (props) => {
@@ -7,11 +6,11 @@ const NewSongs = (props) => {
         <section>
         <h2>{props.title}</h2>
         <hr />
-        <Carousel>
+        <div className="song-wrapper">
             {props.songs.map((song) => (
                 <SongCard key={song.id} item={song} />
             ))}
-        </Carousel>
+        </div>
         </section>
     )
 }
