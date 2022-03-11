@@ -1,12 +1,15 @@
-# Music Releases
-Replace this readme with your own information about your project.
+## Spotify Releases Project
+The brief was to use React to create a responsive site that showed either 1, 2, or 4 album or song cards (mobile, tablet, and desktop respectively) from Spotify. We were also supposed to create hover effects with a play icon that expands, as well as links to the individual artists on each track.
 
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+## Problem & Solution
 
-## The problem
+I first built the components that sorted the albums from the singles into two different categories. After that, I wanted to implement a carousel instead of a long list - so I added react-flickity-component to the package.json and installed it. After that, I spent some more time trying to figure out how I could further divide the components more elegantly so I could re-use them.
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+I had a lot of fun learning about props and props children for this project.
 
-## View it live
+## Live Link
+https://project-spotify-week9.netlify.app/
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+The above link is for the project with the carousel. The link below is a branch I created with the Technigo requirements (to display all of the albums and singles at once). 
+
+If you'd like to see a live link and my code for the Technigo requirements version, you can check out the "technigo" branch on my github repo below.
