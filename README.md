@@ -13,3 +13,5 @@ https://project-spotify-week9.netlify.app/
 The above link is for the project with the carousel. The link below is a branch I created with the Technigo requirements (to display all of the albums and singles at once). 
 
 If you'd like to see a live link and my code for the Technigo requirements version, you can check out the "technigo" branch on my github repo below.
+
+https://github.com/michaelchangdk/project-music-releases/tree/technigo
